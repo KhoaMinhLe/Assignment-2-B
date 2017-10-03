@@ -1,0 +1,126 @@
+[
+  {
+    "nodes" : [
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 6}, {392, 83}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "question_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "A7D3C47C-5D75-499A-9BF2-ECC683109EE4",
+          "class" : "Label",
+          "alignment" : "left",
+          "text" : "Enter the amount of seconds to calculate how high the object is from the ground. (You are 100m from the ground)",
+          "font_size" : 18,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{0, 148}, {272, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "amount_of_seconds_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "9749FB76-C03F-4BAE-86AC-C34286A0C4C5",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Amount Of Seconds:",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{229, 148}, {294, 32}}",
+        "class" : "TextField",
+        "attributes" : {
+          "placeholder" : "Enter Amount Of Seconds Here",
+          "name" : "enter_seconds_textfield",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "class" : "TextField",
+          "uuid" : "FDE52B71-9F88-4DB0-A29C-41CCBC85D6C6",
+          "alignment" : "center",
+          "text" : "",
+          "autocorrection_type" : "default",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : true
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{73, 218}, {149, 32}}",
+        "class" : "Button",
+        "attributes" : {
+          "action" : "calculate_touch_up_inside",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "title" : "Calculate",
+          "uuid" : "405011DF-A557-40A2-9FD8-55FF5A0FF8C3",
+          "class" : "Button",
+          "name" : "calculate_ button",
+          "font_size" : 20
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{66, 281}, {156, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "height_of_object_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "D2659E37-C87C-4B90-BF74-D4151D90912D",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "Height Of Object:",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      },
+      {
+        "nodes" : [
+
+        ],
+        "frame" : "{{223, 281}, {300, 32}}",
+        "class" : "Label",
+        "attributes" : {
+          "name" : "answer_label",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "6901D26F-749D-42B8-9B3C-863F1537DD4E",
+          "class" : "Label",
+          "alignment" : "center",
+          "text" : "",
+          "font_size" : 20,
+          "font_name" : "<System>"
+        },
+        "selected" : false
+      }
+    ],
+    "frame" : "{{0, 0}, {540, 540}}",
+    "class" : "View",
+    "attributes" : {
+      "enabled" : true,
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "selected" : false
+  }
+]
